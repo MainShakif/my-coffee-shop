@@ -6,7 +6,8 @@
 
 /** common styles */
 #our-story,
-#popular-picks {
+#popular-picks,
+#why-us {
   margin: 80px 0;
 }
 
@@ -175,4 +176,35 @@ nav {
 .text-yellow {
   font-size: 18px;
   font-weight: 700;
+}
+
+/* why us section styles */
+
+.why-us-container {
+  text-align: center;
+}
+
+.why-us-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 80px 0;
+}
+.why-us-card {
+  padding: 20px;
+  /* margin-bottom: 8px; */
+  border-radius: 12px;
+}
+.why-us-card img {
+  margin-bottom: 20px;
+}
+
+.why-us-card h3 {
+  font-size: 19px;
+  color: #2e2622;
+  margin-bottom: 18px;
+}
+.why-us-card p {
+  font-size: 16px;
+  color: #2e2622;
 }
