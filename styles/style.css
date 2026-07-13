@@ -54,7 +54,9 @@ nav {
 
 /** banner styles */
 #banner-container {
-  background: url(../image/bg-image.avif);
+  background:
+    linear-gradient(to bottom, rgba(20, 15, 12, 0.65), rgba(20, 15, 12, 0.55)),
+    url(../image/bg-image.avif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -62,7 +64,6 @@ nav {
 }
 .banner-content {
   text-align: center;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,8 +72,10 @@ nav {
 }
 
 .banner-top-text {
+  font-size: 19px;
   margin-bottom: 25px;
   text-transform: uppercase;
+  word-spacing: 10px;
 }
 
 .banner-heading {
