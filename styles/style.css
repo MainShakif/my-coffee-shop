@@ -5,6 +5,11 @@
 }
 
 /** common styles */
+#our-story,
+#popular-picks {
+  margin: 80px 0;
+}
+
 .container {
   max-width: 1210px;
   margin: 0 auto;
@@ -25,6 +30,18 @@
   cursor: pointer;
   text-transform: capitalize;
 }
+
+.section-heading {
+  font-size: 34px;
+  color: #2e2622;
+  text-transform: capitalize;
+}
+.section-top-text {
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+/* common styles ends */
 
 /** nav styles */
 nav {
@@ -93,9 +110,6 @@ nav {
 
 /* our story section styles */
 
-#our-story-section {
-  margin: 80px 0;
-}
 .our-story-container {
   display: flex;
   justify-content: space-between;
@@ -115,4 +129,50 @@ nav {
 .our-story-content p {
   color: #5a4f47;
   margin-bottom: 20px;
+}
+
+/* popular picks styles */
+
+#popular-picks {
+  background-color: #f1e7d8;
+}
+.popular-picks-container {
+  padding-top: 90px;
+  text-align: center;
+}
+.popular-picks-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 80px 0;
+}
+
+.popular-card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.16);
+}
+
+.popular-card img {
+  margin: 25px 0;
+}
+
+.popular-card h3 {
+  font-size: 19px;
+  color: #2e2622;
+  margin-bottom: 18px;
+}
+.popular-card p {
+  font-size: 16px;
+  color: #2e2622;
+  margin-bottom: 15px;
+}
+.popular-card h4 {
+  margin-bottom: 25px;
+}
+.text-yellow {
+  font-size: 18px;
+  font-weight: 700;
 }
