@@ -7,7 +7,9 @@
 /** common styles */
 #our-story,
 #popular-picks,
-#why-us {
+#why-us,
+#when-open,
+#footer {
   margin: 80px 0;
 }
 
@@ -234,3 +236,131 @@ tbody {
   border: 2px solid #2e2622;
   padding: 12px 200px 12px 20px;
 }
+
+/* when open section styles */
+.when-open-container {
+  background: url("../image/footer-img.avif");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  border-radius: 14px;
+}
+
+.when-open-container {
+  position: relative;
+}
+.circle-24-7 {
+  color: black;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  padding: 20px;
+  border-radius: 100%;
+}
+.always-open {
+  color: black;
+  background-color: white;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.always-open h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2e2622;
+}
+.always-open p {
+  /* margin-bottom: 12px; */
+  font-size: 13px;
+  font-weight: 500;
+  color: #5a4f47;
+}
+
+/** footer styles */
+
+footer {
+  background-color: #2f2621;
+}
+#footer-section {
+  padding: 60px 0 25px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand h3,
+.footer-links h3,
+.footer-contact h3 {
+  color: #f0b53c;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.footer-brand h3 i {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.footer-brand p,
+.footer-contact p,
+.footer-links ul li a,
+.footer-bottom p {
+  color: #c8bcb4;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 20px;
+}
+
+.footer-contact p {
+  margin-bottom: 20px;
+}
+
+#footer-section hr {
+  border: none;
+  height: 1px;
+  background-color: #463b35;
+  margin: 40px 0 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social-icons a {
+  width: 35px;
+  height: 35px;
+  background-color: #4a3f39;
+  color: #c8bcb4;
+  border-radius: 50%;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .footer-social-icons a:hover {
+  color: #f0b53c;
+} */
