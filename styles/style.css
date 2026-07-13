@@ -221,14 +221,16 @@ thead {
   text-align: left;
   background-color: #2e2622;
 }
+tbody {
+  text-align: left;
+}
 .opening-hours-table-container {
   margin: 50px 0;
   border-collapse: collapse;
 }
 
 .opening-hours-table-container th,
-td {
-  /* width: 100%; */
+.opening-hours-table-container td {
   border: 2px solid #2e2622;
-  padding: 12px 230px 12px 20px;
+  padding: 12px 200px 12px 20px;
 }
