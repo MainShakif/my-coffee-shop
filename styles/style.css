@@ -24,3 +24,29 @@
   border: none;
   cursor: pointer;
 }
+
+/** nav styles */
+nav {
+  background-color: #2e2622;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 0;
+}
+
+.menu-items {
+  display: flex;
+  gap: 30px;
+
+  list-style: none;
+}
+
+.menu-items li a {
+  color: #fbf6ef;
+  text-decoration: none;
+  font-weight: 600;
+}
