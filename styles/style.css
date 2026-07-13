@@ -90,3 +90,29 @@ nav {
   font-size: 16px;
   margin-bottom: 25px;
 }
+
+/* our story section styles */
+
+#our-story-section {
+  margin: 80px 0;
+}
+.our-story-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.our-story-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+.our-story-content h3 {
+  font-size: 30px;
+  color: #2e2622;
+  margin-bottom: 20px;
+}
+
+.our-story-content p {
+  color: #5a4f47;
+  margin-bottom: 20px;
+}
