@@ -1,7 +1,18 @@
 @media screen and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  #our-story,
+  #popular-picks,
+  #why-us,
+  #when-open,
+  #footer {
+    margin: 30px 0;
+  }
   /* navbar  */
   .nav-container {
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .menu-items-container {
     display: none;
@@ -26,8 +37,24 @@
   .btn {
     font-size: 17px;
     font-weight: 700;
-    padding: 8px 29px;
-    border-radius: 25px;
+    padding: 8px 19px;
+    border-radius: 20px;
+  }
+  /* our story */
+  .our-story-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .our-story-content {
+    text-align: center;
+  }
+  .our-story-content h3 {
+    font-size: 25px;
+    margin-bottom: 6px;
+  }
+  .our-story-content p {
+    width: 100%;
+    margin: 10px auto;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 2000px) {
