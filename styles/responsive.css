@@ -1,0 +1,15 @@
+@media screen and (max-width: 576px) {
+  /* navbar  */
+  .nav-container {
+    justify-content: space-around;
+  }
+  .menu-items-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1500px) {
+  /* navbar  */
+  .hamburger-menu {
+    display: none;
+  }
+}

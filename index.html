@@ -24,6 +24,8 @@
 
     <!-- external-css -->
     <link rel="stylesheet" href="./styles/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
   <body>
     <header>
@@ -41,12 +43,19 @@
               <li><a href="">Contact</a></li>
             </ul>
           </div>
+
+          <!-- hamburger menu for responsive -->
+          <div class="hamburger-menu">
+            <span>
+              <i><i class="fa-solid fa-bars"></i></i>
+            </span>
+          </div>
         </div>
       </nav>
       <!-- navbar ends -->
 
       <!-- hero/banner section starts -->
-      <section id="banner-container">
+      <section id="banner-container" class="hide">
         <div class="banner-content">
           <p class="text-yellow banner-top-text">freshly roasted, daily</p>
           <h1 class="banner-heading">
@@ -65,7 +74,7 @@
 
     <main>
       <!-- our story section -->
-      <section id="our-story">
+      <section id="our-story" class="hide">
         <div class="our-story-container container">
           <div class="our-story-image">
             <img src="./image/our-story.avif" alt="our story image" />
@@ -86,7 +95,7 @@
       <!-- our story section ends here-->
 
       <!-- popular picks section -->
-      <section id="popular-picks">
+      <section id="popular-picks" class="hide">
         <div class="popular-picks-container container">
           <p class="section-top-text text-yellow">our menu</p>
           <h2 class="section-heading">popular picks</h2>
@@ -129,7 +138,7 @@
       <!-- popular picks section ends here -->
 
       <!-- why us section starts -->
-      <section id="why-us">
+      <section id="why-us" class="hide">
         <div class="why-us-container container">
           <p class="section-top-text text-yellow">why us</p>
           <h2 class="section-heading">what makes us different</h2>
@@ -159,7 +168,7 @@
       <!-- why us section ends -->
 
       <!-- Opening hours section starts -->
-      <section id="opening-hours">
+      <section id="opening-hours" class="hide">
         <div class="opening-hours-container container">
           <p class="section-top-text text-yellow">opening hours</p>
           <h2 class="section-heading">when we're open</h2>
@@ -197,7 +206,7 @@
       <!-- Opening hours section ends -->
 
       <!-- opening hour section starts  -->
-      <section id="when-open">
+      <section id="when-open" class="hide">
         <div class="when-open-container container">
           <div class="circle-24-7">
             <h2>24/7</h2>
@@ -215,7 +224,7 @@
       <!-- opening hour section ends here  -->
     </main>
 
-    <footer id="footer">
+    <footer id="footer" class="hide">
       <div id="footer-section" class="container">
         <div class="footer-top">
           <div class="footer-brand">

@@ -5,6 +5,10 @@
 }
 
 /** common styles */
+.hide {
+  display: none;
+}
+
 #our-story,
 #popular-picks,
 #why-us,
