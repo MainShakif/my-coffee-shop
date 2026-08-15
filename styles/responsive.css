@@ -78,6 +78,15 @@
       rgba(27, 31, 35, 0.04) 0px 1px 0px,
       rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
   }
+  /* opening hours */
+  .opening-hours-table-container {
+    margin: 20px 0;
+  }
+  .opening-hours-table-container th,
+  .opening-hours-table-container td {
+    border: 2px solid #2e2622;
+    padding: 10px 100px 12px 20px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 2000px) {
   /* navbar  */
