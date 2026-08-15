@@ -65,6 +65,19 @@
     grid-template-columns: repeat(1, 1fr);
     padding: 30px 0;
   }
+  /* why us */
+  .why-us-card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding: 30px 0;
+  }
+  .why-us-card {
+    padding: 30px;
+    box-shadow:
+      rgba(27, 31, 35, 0.04) 0px 1px 0px,
+      rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 2000px) {
   /* navbar  */
