@@ -6,8 +6,31 @@
   .menu-items-container {
     display: none;
   }
+  /* Banner */
+  .banner-heading {
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 30px;
+    width: 90%;
+  }
+  .banner-desc {
+    font-size: 14px;
+    margin-bottom: 8px;
+    width: 90%;
+  }
+  .banner-top-text {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .btn {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 8px 29px;
+    border-radius: 25px;
+  }
 }
-@media screen and (min-width: 576px) and (max-width: 1500px) {
+@media screen and (min-width: 576px) and (max-width: 2000px) {
   /* navbar  */
   .hamburger-menu {
     display: none;
